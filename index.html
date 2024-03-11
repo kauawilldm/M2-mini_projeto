@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Animes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Animes</h1>
+        <form id="crud-form">
+            <input type="text" id="name" placeholder="Nome do Anime" required>
+            <input type="text" id="genre" placeholder="Gênero" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div id="records"></div>
+        <p id="record-count">0 animes adicionados</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
